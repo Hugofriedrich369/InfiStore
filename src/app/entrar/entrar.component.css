@@ -1,0 +1,53 @@
+span {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 1rem;    
+}
+
+.logo {
+    position: absolute;
+    left: 38%;
+    top: 4%;    
+}
+
+.cadastre {
+    margin-top: 1rem;
+    margin-left: 0.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#inputemail {
+    margin-left: 0.3rem;
+}
+
+#inputsenha {
+    margin-top: 10%;
+}
+
+.inputs {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    display: grid;
+    margin-top: 3rem;
+    text-align: 2rem;
+}
+
+#inputsenha, #inputemail {
+    background-color: transparent;
+    border-color: #F92C5E;
+    border-style: solid;
+    border-radius: 100px;
+    border-width: 1px;
+    width: 12rem;
+    height: 1.5rem;
+    color: white;
+}
+
+a:hover {
+    cursor: pointer;
+}

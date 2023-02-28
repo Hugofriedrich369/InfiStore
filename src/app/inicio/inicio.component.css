@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.botoes {
+    position: absolute;
+    top: 2.5%;
+    right: 10%;
+    display: inline-flex;
+    padding-left: 2rem;
+}
+
+#entrarbutton {
+    margin-right: 1rem;
+}
+
+#entrarbutton, #cadastrarbutton {
+    background-color: transparent;
+    color: #F92C5E;
+    width: 8rem;
+    height: 1.8rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+
+#entrarbutton {
+    border: none;
+}
+
+#cadastrarbutton {
+    border: 1px, solid,#F92C5E;
+    border-radius: 100px;
+    border-width: 1px;
+    border-color: #F92C5E;
+    border-style: solid;
+}
+
+#entrarbutton:hover, #cadastrarbutton:hover {
+    color:#A50D67;
+    cursor: pointer;
+}
+
+#cadastrarbutton:hover {
+    border-color: #A50D67;
+}
