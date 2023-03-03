@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { EntrarComponent } from './entrar/entrar.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { InicioModule } from './inicio/inicio.module';
+import { InicioRoutingModule } from './inicio/inicio-routing.module';
 
 
 @NgModule({
@@ -21,7 +23,7 @@ import { InicioComponent } from './inicio/inicio.component';
       {
         path: '',
         component: AppComponent,
-        pathMatch: 'full' 
+        pathMatch: 'full',
       },
       {
         path: 'entrar',
