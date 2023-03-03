@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-inicio',
+  templateUrl: './inicio.component.html',
+  styleUrls: ['./inicio.component.css']
 })
-export class AppComponent {
-  title = 'App';
+export class InicioComponent {
 
   constructor(private router: Router){
   }
@@ -17,11 +17,6 @@ export class AppComponent {
   
   goToCadastrar($MyParam: string = ''): void {
     const navigationDetails: string[] = ['/cadastrar'];
-    this.router.navigate(navigationDetails);
-  }
-
-  goToInicio($MyParam: string = ''): void {
-    const navigationDetails: string[] = ['/inicio'];
     this.router.navigate(navigationDetails);
   }
 }

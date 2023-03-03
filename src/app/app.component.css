@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+.botoes {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    display: inline-flex;
+    padding-left: 2rem;
+}
+
+#entrarbutton {
+    margin-right: 1rem;
+}
+
+#entrarbutton, #cadastrarbutton {
+    background-color: transparent;
+    color: #F92C5E;
+    width: 8rem;
+    height: 1.8rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+
+#entrarbutton {
+    border: none;
+}
+
+#cadastrarbutton {
+    border: 1px, solid,#F92C5E;
+    border-radius: 100px;
+    border-width: 1px;
+    border-color: #F92C5E;
+    border-style: solid;
+}
+
+#entrarbutton:hover, #cadastrarbutton:hover {
+    color:#A50D67;
+    cursor: pointer;
+}
+
+#cadastrarbutton:hover {
+    border-color: #A50D67;
+}
+
+.navbar {
+    background-color: rgb(34, 34, 34);
+    width: 100% !important;
+    position: fixed !important;
+    margin: -0.5rem;
+}
+
+#logo {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-left: 2rem;
+    position: 20%;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 2rem;
+    position: 60%;
+}
+
+#lista {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a:hover {
+    color: #00D9E6;
+    border-bottom: 1px, solid, #00D9E6;
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+}
